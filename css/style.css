@@ -30,6 +30,9 @@ ul li {
 .container {
     max-width: 60em;
     margin: 0 auto;
+}
+
+.flex {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -42,7 +45,7 @@ header {
 }
 
 .logo {
-    color: lightgray;
+    color: #6c7279;
     text-transform: uppercase;
 }
 .logo span {
@@ -66,7 +69,7 @@ header {
     padding: 0.31em;
     margin-left: 1.5em;
     font-size: 0.81em;
-    color: lightgray;
+    color: #6c7279;
 }
 
 /* Cover */
@@ -80,14 +83,19 @@ header {
 
 .cover h2 {
     text-transform: uppercase;
-    font-size: 3em;
     color: #fff;
+    font-size: 4.06em;
+    line-height: 1.2em;
+    font-weight: 700;
+    text-align: center;
 }
 
 .cover p {
     margin-top: 1.5em;
+    font-size: 1.375em;
+    text-align: center;
+    line-height: 1.3em;
     color: #fff;
-    font-size: 1.5em;
 }
 
 .button {
@@ -99,10 +107,10 @@ header {
     font-weight: bold;
     margin: 4em auto 4em auto;
     color: #fff;
-    max-width: 180px;
+    max-width: 12rem;
     padding: 10px 0;
-    background-color: tomato;
-    border: 2px solid tomato;
+    background-color: #e74747;
+    border: 2px solid #e74747;
 }
 
 .button:hover {
@@ -113,4 +121,29 @@ header {
 section img {
     max-width: 5em;
     height: auto;
+}
+
+/* Features */
+.features {
+    padding: 10rem 0;
+}
+
+.feature-item {
+    max-width: 16rem;
+    text-align: center;
+    margin: 4em 2em;
+}
+.feature-item h3 {
+   color: tomato;
+   text-transform: uppercase;
+}
+
+.feature-item p {
+    color: #6c7279;
+    line-height: 1.31em;
+ }
+
+.feature-item img {
+    display: block;
+    margin: 0 auto;
 }
