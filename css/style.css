@@ -125,13 +125,13 @@ section img {
 
 /* Features */
 .features {
-    padding: 10rem 0;
+    padding: 10em 0;
 }
 
 .feature-item {
     max-width: 16rem;
     text-align: center;
-    margin: 4em 2em;
+    margin: 3em 2em;
 }
 .feature-item h3 {
    color: tomato;
