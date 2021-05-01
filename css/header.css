@@ -35,3 +35,19 @@ header {
     color: #fff;
 }
 
+/* Media Queries */
+
+@media (max-width: 739px) {
+    .logo {
+        margin: 0.8rem;
+    }
+    .logo span {
+        margin: 0.8rem;
+    }
+
+    .menu ul li a {
+        margin-left: 1rem;
+        font-size: 0.85em;
+        color: #6c7279;
+    }
+}

@@ -47,3 +47,21 @@ section img {
     max-width: 5rem;
     height: auto;
 }
+
+/* Media Queries */
+@media (max-width: 739px) {
+    .cover h1 {
+        font-size: 2.5em;
+        padding: 0.2rem;
+        line-height: 1em;
+    }
+
+    .cover p {
+        margin-top: 1.5rem;
+        padding: 0.2rem;
+        font-size: 1.2em;
+        text-align: center;
+        line-height: 1.3em;
+        color: #fff;
+    }
+}
