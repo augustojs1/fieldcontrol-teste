@@ -1,0 +1,33 @@
+.clients-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.clients-container img {
+    max-width: 50%;
+    display: block;
+}
+
+.carousel {
+    max-width: 50%;
+    background-color: #53354a;
+}
+
+.carousel h2 {
+    font-weight: 400;
+    margin: 5rem 12rem 1.3rem 4rem;
+    font-size: 2.25em;
+    line-height: 1.5em;
+    color: #fff;
+    font-style: italic;
+    font-family: "Cardo";
+}
+
+.carousel p {
+    font-size: 0.81em;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    margin: 0 4rem;
+}

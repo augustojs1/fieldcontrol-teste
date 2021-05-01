@@ -1,0 +1,10 @@
+.works {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.works img {
+    max-width: 25%;
+    display: block;
+}

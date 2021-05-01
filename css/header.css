@@ -31,3 +31,7 @@ header {
     color: #6c7279;
 }
 
+.menu ul li a:hover {
+    color: #fff;
+}
+
